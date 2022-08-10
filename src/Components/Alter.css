@@ -1,0 +1,18 @@
+#alter {
+  z-index: 1;
+  position: absolute;
+  /* top: 10%; */
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 480px) {
+  #alter {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
